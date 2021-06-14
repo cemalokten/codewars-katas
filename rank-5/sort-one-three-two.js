@@ -109,7 +109,9 @@ function digitsToWords(num) {
 // }
 
 function sortByName(array) {
-	return array.map((e) => digitsToWords(e)).sort();
+	const lengths = array.map((e) => digitsToWords(e).length);
+	const words = array.map((e) => digitsToWords(e));
+	return lengths;
 }
 
-console.log(sortByName([ 9, 999, 99 ]));
+console.log(sortByName([ 9, 99, 999 ]));
