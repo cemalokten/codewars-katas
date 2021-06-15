@@ -54,64 +54,46 @@ function digitsToWords(num) {
 		'eighteen',
 		'nineteen'
 	];
+
 	const tens = [ '', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety' ];
-	const numString = num.toString();
+
+	const numStr = num.toString();
 
 	if (num < 20) {
 		return ones[num];
 	}
 
 	if (num >= 20 && num < 100) {
-		return tens[numString[0]] + ' ' + ones[numString[1]];
+		if (numStr[1] === '0') {
+			return tens[numStr[0]];
+		} else {
+			return tens[numStr[0]] + ' ' + ones[numStr[1]];
+		}
 	}
 
 	if (num > 99 && num <= 999) {
-		if (numString[1] != '1' && numString[2] != '0') {
-			return ones[numString[0]] + ' hundred ' + tens[numString[1]] + ' ' + ones[numString[2]];
-		} else if (numString[1] === '1' && numString[2] === '0') {
-			return ones[numString[0]] + ' hundred ' + 'ten';
-		} else if (numString[1] === '1' && numString[2] != '0') {
-			return ones[numString[0]] + ' hundred ' + ones[numString[1] + numString[2]];
-		} else if (numString[2] === '0') {
-			return ones[numString[0]] + ' hundred ' + tens[numString[1]];
+		if (numStr[1] === '0' && numStr[2] != '0') {
+			return `${ones[numStr[0]]} hundred ${ones[numStr[2]]}`;
+		} else if (numStr[1] != '1' && numStr[2] != '0') {
+			return `${ones[numStr[0]]} hundred ${tens[numStr[1]]} ${ones[numStr[2]]}`;
+		} else if (numStr[1] === '1' && numStr[2] === '0') {
+			return ones[numStr[0]] + ' hundred ' + 'ten';
+		} else if (numStr[1] === '1' && numStr[2] != '0') {
+			return ones[numStr[0]] + ' hundred ' + ones[numStr[1] + numStr[2]];
+		} else if (numStr[2] === '0') {
+			return ones[numStr[0]] + ' hundred ' + tens[numStr[1]];
 		}
 	}
 }
 
-// function wordsToDigits(str) {
-// 	const ones = [
-// 		'zero',
-// 		'one',
-// 		'two',
-// 		'three',
-// 		'four',
-// 		'five',
-// 		'six',
-// 		'seven',
-// 		'eight',
-// 		'nine',
-// 		'ten',
-// 		'eleven',
-// 		'twelve',
-// 		'thirteen',
-// 		'fourteen',
-// 		'fifteen',
-// 		'sixteen',
-// 		'seventeen',
-// 		'eighteen',
-// 		'nineteen'
-// 	];
-// 	const tens = [ '', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety' ];
-
-//   const arr = str.split(' ').filter((e) => e != '');
-
-//   return arr.map(e => (arr.length > 3) ? e.replace('hundred', '') :  e.replace('hundred', 'zero')).filter((e) => e != '');
-// }
-
 function sortByName(array) {
-	const lengths = array.map((e) => digitsToWords(e).length);
-	const words = array.map((e) => digitsToWords(e));
-	return lengths;
+	if (array.length === 0) {
+		return array;
+	} else {
+		return array
+			.map((e) => [ digitsToWords(e), e ])
+			.sort((a, b) => a[0].localeCompare(b[0]))
+			.map((e) => e.splice(1))
+			.reduce((acc, cur) => acc.concat(cur));
+	}
 }
-
-console.log(sortByName([ 9, 99, 999 ]));
