@@ -37,8 +37,6 @@ function seven(a) {
 }
 function eight() {}
 function nine() {}
-
-// function to do this for each
 function plus(a) {
 	if (a != null) {
 		return [ a, 'plus' ];
