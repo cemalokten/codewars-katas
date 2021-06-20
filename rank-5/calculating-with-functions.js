@@ -54,10 +54,3 @@ function times(a) {
 function dividedBy() {}
 
 console.log(seven(plus(five())));
-
-var gimme = function(inputArray) {
-	const arr = inputArray.map((c, i) => [ c, i ]);
-	return arr.sort((a, b) => a[0] - b[0])[1][1];
-};
-
-console.log(gimme([ 2, 3, 1 ]));
