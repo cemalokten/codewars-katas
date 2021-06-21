@@ -54,3 +54,5 @@ function times(a) {
 function dividedBy() {}
 
 console.log(seven(plus(five())));
+
+//first commit with command line
