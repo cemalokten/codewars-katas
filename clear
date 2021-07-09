@@ -1,0 +1,207 @@
+[33mcommit bebb8197bcff70fa48647438e7070f515eb22951[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Fri Jun 25 08:21:28 2021 +0100
+
+    🏀
+
+[33mcommit e6eb1c3a0b50fee9d3dc414c1021f0fd0494a135[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue Jun 22 20:53:03 2021 +0100
+
+    💎
+
+[33mcommit e3bad1e983c0b28210b8326af8fc324c7bf6dda5[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Tue Jun 22 20:37:11 2021 +0100
+
+    Delete rank-4 directory
+
+[33mcommit 82cfb349ab8357aad0bbe6ff82bd6f148a8c60db[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Tue Jun 22 19:29:13 2021 +0100
+
+    Create multiplying-numbers-as-strings.js
+
+[33mcommit fa654894b6076ffe55333914a603ca547b2b1803[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Tue Jun 22 19:27:39 2021 +0100
+
+    Delete rank-4 directory
+
+[33mcommit 106bc7b5c33aaf05691bda4747e75774ad71523e[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Tue Jun 22 19:27:01 2021 +0100
+
+    Update multiplying-numbers-as-strings.js
+
+[33mcommit 93629a4b20a41e0573470ec6ab15a926f378d4a9[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Tue Jun 22 19:21:19 2021 +0100
+
+    Create multiplying-numbers-as-strings.js
+
+[33mcommit 23aff80feef95819cd32aad7a55a1ef3fbb52216[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Mon Jun 21 16:43:47 2021 +0100
+
+    First commit using command line 🙌 woo!
+
+[33mcommit 54d160e8aad2f0478d52705e3fdeed8ce8c22a0b[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Sun Jun 20 22:32:45 2021 +0100
+
+    Update calculating-with-functions.js
+
+[33mcommit 88ff416f1dbbde0b2919335dbfee30a905fe9a85[m
+Author: Cemal Okten <60609268+cemalokten@users.noreply.github.com>
+Date:   Thu Jun 17 22:03:57 2021 +0100
+
+    Update calculating-with-functions.js
+
+[33mcommit 5989bb83e621002813412733da17ae48d69cd0ff[m
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Thu Jun 17 20:51:51 2021 +0100
+
+    Moved to correct folder
+    
+    Moved to correct folder
+
+[33mcommit 9727e2aeb744fbb977c45f4545cf2c4b2f31a5f3[m
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Thu Jun 17 16:56:51 2021 +0100
+
+    Create calculating-with-functions.js
+    
+    first attempt at Kata - Calculating with functions
+
+[33mcommit 55d0a48be95b3cf125cf60c877ff1feff51d87ab[m
+Merge: ec6209a 118cac5
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Thu Jun 17 06:47:46 2021 +0100
+
+    Merge branch 'main' of https://github.com/cemalokten/codewars-katas into main
+
+[33mcommit ec6209a03ef6e602aa29d54ffc178629d34de644[m
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Thu Jun 17 06:47:40 2021 +0100
+
+    Create highest-and-lowest.js
+    
+    Return highest and lowest values of an array
+
+[33mcommit d526bfbd2fe07f09e5d32a916c5ac6e5efc76650[m
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Thu Jun 17 06:47:02 2021 +0100
+
+    Create reversed-words.js
+    
+    Reverse the order of an array
+
+[33mcommit 118cac583b4915e282db9de7015ae03c1e06a678[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Wed Jun 16 10:16:51 2021 +0100
+
+    Create extract-the-domain-name-from-a-url.js
+    
+    first attempt at extracting domain name from full url
+
+[33mcommit e497a8cb64378bae572e45aca502bebac6e93c57[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue Jun 15 14:06:06 2021 +0100
+
+    Update sort-one-three-two.js
+    
+    Working solution to this kata
+    - Issue was with localCompare
+
+[33mcommit fc02490fc4ffa1021a08b1b0994da646ab7d4d32[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Mon Jun 14 17:41:30 2021 +0100
+
+    Update sort-one-three-two.js
+    
+    attempt to match lengths of words with array that has been sorted (doesn't work)
+
+[33mcommit 17007188f77217716166d0a4bce0e9036b18914f[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Mon Jun 14 17:23:03 2021 +0100
+
+    Create sort-one-three-two.js
+    
+    first attempt at converting int to phrase, sorting it and then converting back
+
+[33mcommit f4f8b4ad3192bc630610c105702b00abf32edb40[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Mon Jun 14 12:03:20 2021 +0100
+
+    Create working-with-arrays.js
+    
+    Working with arrays I (and why your code fails in some katas)
+    
+    - needed to deepclone array with map instead of shallow
+
+[33mcommit b44d594eb98312f7f7d788dcb47545c6b4f8f562[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Mon Jun 14 11:50:13 2021 +0100
+
+    Create whats-up-next.js
+    
+    attempt at finding the element after the one specified.
+    
+    - works on chrome / node
+    - but fails Codewars test with error
+    "TypeError: object.indexOf is not a function
+        at nextItem (test.js:4:19)
+        at Context.it (test.js:15:19)"
+
+[33mcommit 74c2f67aceaa4e276cf216bf9db5c2f4b0a3de70[m
+Author: Cemal Okten <cemalokten@gmakil.com>
+Date:   Sun Jun 13 18:51:47 2021 +0100
+
+    Create generate-user-links.js
+    
+    Convert string into UTF8 link
+
+[33mcommit cf0f08744ffd64c53710fed91cdba7e276fcb19f[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Sat Jun 12 17:34:45 2021 +0100
+
+    Create a-man-and-his-umbrellas.js
+    
+    First attempt at solving this Kata
+
+[33mcommit 3c2af931bd11f929826fc6bcd44797b02f081360[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue May 11 11:21:23 2021 +0100
+
+    Regexp Basics - is it a vowel?
+
+[33mcommit d3fcc6579a99175ff9ec4ef1f689142bb8927d14[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue May 11 11:01:37 2021 +0100
+
+    Validate My Password
+    
+    Validate my Password
+    https://www.codewars.com/kata/59c01248bf10a47bd1000046
+
+[33mcommit ee869ac6ae173283a935f075963d5921338982b5[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue May 11 11:00:24 2021 +0100
+
+    validate-my-password
+    
+    Validate my Password
+    https://www.codewars.com/kata/59c01248bf10a47bd1000046
+
+[33mcommit 814a78322a4085f7baf81e564a672436ff71763d[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue May 11 10:59:43 2021 +0100
+
+    6-kyu
+
+[33mcommit f80f072fcfba6badf61a318541765f11da663a76[m
+Author: Cemal Okten <cemalokten@gmail.com>
+Date:   Tue May 11 10:58:39 2021 +0100
+
+    Initial commit
