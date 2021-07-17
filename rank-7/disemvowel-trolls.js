@@ -14,7 +14,11 @@
 function disemvowel(str) {
 	const arr = str.split('');
 	console.log(arr);
-	return arr.filter((x) => !(x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u' || x == 'O')).join('');
+	return arr
+		.filter(
+			(x) => !(x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u' || x == 'A' || x == 'E' || x == 'I' || x == 'O' || x == 'U')
+		)
+		.join('');
 }
 
 console.log(disemvowel('This website is for losers LOL!')); //"Ths wbst s fr lsrs LL!"
