@@ -26,15 +26,32 @@ function four() {}
 function five() {
 	return 5;
 }
-function six() {}
+function six(a) {
+	if (a != null && a[1] === 'times') {
+		return 6 * a[0];
+	} else if (a != null && a[1] === 'plus') {
+		return 6 + a[0];
+	} else if (a != null && a[1] === 'devide') {
+		return 6 / a[0];
+	} else if (a != null && a[1] === 'minus') {
+		return 6 - a[0];
+	}
+	return 6;
+}
+
 function seven(a) {
 	if (a != null && a[1] === 'times') {
 		return 7 * a[0];
 	} else if (a != null && a[1] === 'plus') {
 		return 7 + a[0];
+	} else if (a != null && a[1] === 'devide') {
+		return 7 / a[0];
+	} else if (a != null && a[1] === 'minus') {
+		return 7 - a[0];
 	}
 	return 7;
 }
+
 function eight() {}
 function nine() {}
 function plus(a) {
@@ -53,6 +70,4 @@ function times(a) {
 }
 function dividedBy() {}
 
-console.log(seven(plus(five())));
-
-//first commit with command line
+console.log(seven(minus(six())));
